@@ -25,7 +25,7 @@ gulp.task('build:dev', function() {
         ]
       }
     }))
-    .pipe(gulp.dest('build/'));
+    .pipe(gulp.dest('public/'));
 });
 
 gulp.task('default', ['static:dev', 'build:dev']);
