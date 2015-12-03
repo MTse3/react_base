@@ -3,7 +3,7 @@ var webpack = require('webpack-stream');
 
 gulp.task('static:dev', function() {
   return gulp.src('app/index.html')
-    .pipe(gulp.dest('build/'));
+    .pipe(gulp.dest('public/'));
 });
 
 gulp.task('build:dev', function() {
